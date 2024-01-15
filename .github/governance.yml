@@ -60,6 +60,14 @@ issue:
     - prefix: os
       list: ['mac', 'win', 'linux', 'freebsd']
       multiple: true
+  
+  chat_ops:
+    - cmd: /assign
+      type: assign
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
 
 pull_request:
   labels:
