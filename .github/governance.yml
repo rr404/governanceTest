@@ -1,7 +1,8 @@
 version: v1
 
 issue:
-  automations: true
+  automations:
+    autoAssignAnyFrom: ['@rr404', '@rr404', '@rr404']
   captures:
     - regex: 'version: v*(.+)-[rc*]?'
       github_release: true
