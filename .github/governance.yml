@@ -1,6 +1,7 @@
 version: v1
 
 issue:
+  automations: true
   captures:
     - regex: 'version: v*(.+)-[rc*]?'
       github_release: true
