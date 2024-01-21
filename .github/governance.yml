@@ -27,7 +27,7 @@ issue:
 
   labels:
     - prefix: triage
-      list: ['accepted']
+      list: ['fixed', 'wontfix', 'backlog', 'provide more details']
       multiple: false
       author_association:
         collaborator: true
