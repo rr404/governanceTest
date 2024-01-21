@@ -3,6 +3,14 @@ version: v1
 issue:
   automations:
     autoAssignAnyFrom: ['@rr404', '@rr404', '@rr404']
+    autoStale:
+      fromTag: 'need more details'
+      delay: '5m50s'
+      resetOn: ['issue_comment/created']
+    autoClose:
+      fromTag: 'stale'
+      delay: '9m30s'
+
   captures:
     - regex: 'version: v*(.+)-[rc*]?'
       github_release: true
