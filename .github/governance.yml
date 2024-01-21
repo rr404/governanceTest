@@ -4,7 +4,7 @@ issue:
   automations:
     autoAssignAnyFrom: ['@rr404', '@rr404', '@rr404']
     autoStale:
-      fromTag: 'need more details'
+      fromTag: 'provide more details'
       delay: '5m50s'
       resetOn: ['issue_comment/created']
     autoClose:
