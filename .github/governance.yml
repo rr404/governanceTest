@@ -5,11 +5,11 @@ issue:
     autoAssignAnyFrom: ['@rr404', '@rr404', '@rr404']
     autoStale:
       fromTag: 'provide more details'
-      delay: '5m50s'
+      delay: '5m'
       resetOn: ['issue_comment/created']
     autoClose:
       fromTag: 'stale'
-      delay: '9m30s'
+      delay: '9m'
 
   captures:
     - regex: 'version: v*(.+)-[rc*]?'
