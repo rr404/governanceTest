@@ -1,4 +1,4 @@
-# .github/workflow/governance.yml
+# .github/governance.yml
 
 on:
   pull_request_target:

@@ -35,7 +35,7 @@ issue:
 
   labels:
     - prefix: triage
-      list: ['fixed', 'wontfix', 'backlog', 'provide more details']
+      list: ['accepted']
       multiple: false
       author_association:
         collaborator: true
@@ -52,7 +52,7 @@ issue:
           3. Check [Releases](https://github.com/crowdsecurity/crowdsec/releases/latest) to make sure your agent is on the latest version.
 
     - prefix: kind
-      list: ['feature', 'bug', 'packaging', 'enhancement']
+      list: ['feature', 'bug', 'packaging', 'enhancement', 'support']
       multiple: false
       author_association:
         author: true
